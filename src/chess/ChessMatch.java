@@ -13,8 +13,9 @@ public class ChessMatch {
     private int turn;
     private Color currentPlayer;
     private Board board;
-    private List<Piece> piecesOnTheBoard = new ArrayList<>();
+
     private List<Piece> capturedPieces = new ArrayList<>();
+    private List<Piece> piecesOnTheBoard = new ArrayList<>();
 
     public ChessMatch() {
         board = new Board(8, 8);
